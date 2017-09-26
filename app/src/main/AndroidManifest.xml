@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andrecristen.tccperguntasseparadas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoicone"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoicone"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Geral.telaInicial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Conteudos.escolherConteudos" />
+        <activity android:name=".Geral.telaIdades" />
+        <activity android:name=".SeisADez.categoriasSeisADez" />
+        <activity android:name=".SeisADez.Logica.QuizLogicaSeisADez" />
+        <activity android:name=".Geral.TelaFinal" />
+        <activity android:name=".SeisADez.Desafios.QuizDesafiosSeisADez" />
+        <activity android:name=".SeisADez.Raciocinio.QuizRaciocinioSeisADez" />
+        <activity android:name=".CatorzeADezesseis.Desafios.QuizDesafiosCatorzeADezesseis" />
+        <activity android:name=".CatorzeADezesseis.categoriasCatorzeADezesseis" />
+        <activity android:name=".CatorzeADezesseis.Logica.QuizLogicaCatorzeADezesseis" />
+        <activity android:name=".CatorzeADezesseis.Raciocinio.QuizRaciocinioCatorzeADezesseis" />
+        <activity android:name=".OnzeATreze.categoriasOnzeATreze" />
+        <activity android:name=".OnzeATreze.Desafios.QuizDesafiosOnzeATreze" />
+        <activity android:name=".OnzeATreze.Logica.QuizLogicaOnzeATreze" />
+        <activity android:name=".OnzeATreze.Raciocinio.QuizRaciocinioOnzeATreze" />
+        <activity android:name=".Conteudos.telaAdicao" />
+        <activity android:name=".Conteudos.telaSubtracao" />
+        <activity android:name=".Conteudos.telaMultiplicacao" />
+        <activity android:name=".Conteudos.telaDivisao" />
+        <activity android:name=".Conteudos.telaComplementos" />
+        <activity android:name=".Geral.calculadora" />
+        <activity android:name=".Desafios.desafio_1" />
+        <activity android:name=".Desafios.desafio_2" />
+        <activity android:name=".Desafios.desafio_3" />
+        <activity android:name=".Desafios.desafio_4" />
+        <activity android:name=".Desafios.desafio_5" />
+        <activity android:name=".Desafios.desafio_6" />
+        <activity android:name=".Desafios.desafio_7" />
+        <activity android:name=".Desafios.desafio_8" />
+        <activity android:name=".Desafios.desafio_9" />
+        <activity android:name=".Desafios.desafio_10" />
+        <activity android:name=".Desafios.desafio_final"></activity>
+    </application>
+
+</manifest>
