@@ -47,7 +47,13 @@
         <activity android:name=".Desafios.desafio_8" />
         <activity android:name=".Desafios.desafio_9" />
         <activity android:name=".Desafios.desafio_10" />
-        <activity android:name=".Desafios.desafio_final"></activity>
+        <activity android:name=".Desafios.desafio_final" />
+        <activity android:name=".Desafios.desafio_errou" />
+        <activity android:name=".Conteudos.telaAdicao2" />
+        <activity android:name=".Conteudos.telaAdicao3" />
+        <activity android:name=".Conteudos.telaSubtracao2" />
+        <activity android:name=".Conteudos.telaDivisao2" />
+        <activity android:name=".Conteudos.telaMultiplicacao2"></activity>
     </application>
 
 </manifest>

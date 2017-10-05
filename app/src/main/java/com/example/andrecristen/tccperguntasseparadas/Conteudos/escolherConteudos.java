@@ -39,4 +39,9 @@ public class escolherConteudos extends AppCompatActivity {
         Intent telaComplementos = new Intent(this, telaComplementos.class);
         startActivity(telaComplementos);
     }
+    public void startTelaInicial(View view) {
+
+        Intent telaComplementos = new Intent(this, com.example.andrecristen.tccperguntasseparadas.Geral.telaInicial.class);
+        startActivity(telaComplementos);
+    }
 }

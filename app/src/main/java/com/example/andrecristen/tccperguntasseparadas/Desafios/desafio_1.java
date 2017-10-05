@@ -25,7 +25,7 @@ public class desafio_1 extends AppCompatActivity {
 
 public void startTelaInicial(View view) {
         kill_activity();
-        Intent telaInicial = new Intent(this, com.example.andrecristen.tccperguntasseparadas.Geral.telaInicial.class);
+        Intent telaInicial = new Intent(this, desafio_errou.class);
         startActivity(telaInicial);
 
 
