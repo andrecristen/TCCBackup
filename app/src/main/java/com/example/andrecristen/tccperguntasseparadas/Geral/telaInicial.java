@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.andrecristen.tccperguntasseparadas.Conteudos.escolherConteudos;
-import com.example.andrecristen.tccperguntasseparadas.Desafios.desafio_1;
 import com.example.andrecristen.tccperguntasseparadas.R;
 
 public class telaInicial extends AppCompatActivity {
@@ -29,7 +28,7 @@ public class telaInicial extends AppCompatActivity {
     }
     public void startTelaDesafios(View view) {
 
-        Intent telaDeafios = new Intent(this, desafio_1.class);
+        Intent telaDeafios = new Intent(this, com.example.andrecristen.tccperguntasseparadas.Desafios.telaCategoriaDesafios.class);
         startActivity(telaDeafios);
     }
 }

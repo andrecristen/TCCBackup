@@ -7,17 +7,17 @@ import android.view.View;
 
 import com.example.andrecristen.tccperguntasseparadas.R;
 
-public class desafio_8 extends AppCompatActivity {
+public class desafio_3_formas extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_desafio_8);
+        setContentView(R.layout.activity_desafio_3_formas);
     }
-    public void startTelaDesafios9(View view) {
+    public void startTelaDesafios4(View view) {
         kill_activity();
-        Intent telaDesafios9 = new Intent(this, desafio_9.class);
-        startActivity(telaDesafios9);
+        Intent telaDesafios4 = new Intent(this, desafio_4_formas.class);
+        startActivity(telaDesafios4);
     }
 
 

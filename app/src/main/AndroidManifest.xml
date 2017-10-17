@@ -37,23 +37,26 @@
         <activity android:name=".Conteudos.telaDivisao" />
         <activity android:name=".Conteudos.telaComplementos" />
         <activity android:name=".Geral.calculadora" />
-        <activity android:name=".Desafios.desafio_1" />
-        <activity android:name=".Desafios.desafio_2" />
-        <activity android:name=".Desafios.desafio_3" />
-        <activity android:name=".Desafios.desafio_4" />
-        <activity android:name=".Desafios.desafio_5" />
-        <activity android:name=".Desafios.desafio_6" />
-        <activity android:name=".Desafios.desafio_7" />
-        <activity android:name=".Desafios.desafio_8" />
-        <activity android:name=".Desafios.desafio_9" />
-        <activity android:name=".Desafios.desafio_10" />
+        <activity android:name=".Desafios.desafio_1_formas" />
+        <activity android:name=".Desafios.desafio_2_formas" />
+        <activity android:name=".Desafios.desafio_3_formas" />
+        <activity android:name=".Desafios.desafio_4_formas" />
+        <activity android:name=".Desafios.desafio_5_formas" />
+        <activity android:name=".Desafios.desafio_6_cores" />
+        <activity android:name=".Desafios.desafio_7_cores" />
+        <activity android:name=".Desafios.desafio_8_cores" />
+        <activity android:name=".Desafios.desafio_9_cores" />
+        <activity android:name=".Desafios.desafio_10_cores" />
         <activity android:name=".Desafios.desafio_final" />
         <activity android:name=".Desafios.desafio_errou" />
         <activity android:name=".Conteudos.telaAdicao2" />
         <activity android:name=".Conteudos.telaAdicao3" />
         <activity android:name=".Conteudos.telaSubtracao2" />
         <activity android:name=".Conteudos.telaDivisao2" />
-        <activity android:name=".Conteudos.telaMultiplicacao2"></activity>
+        <activity android:name=".Conteudos.telaMultiplicacao2" />
+        <activity android:name=".Desafios.telaCategoriaDesafios" />
+        <activity android:name=".Conteudos.telaComplementos2" />
+        <activity android:name=".Conteudos.telaComplementos3"></activity>
     </application>
 
 </manifest>

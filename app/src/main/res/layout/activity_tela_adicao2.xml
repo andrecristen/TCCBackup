@@ -31,14 +31,17 @@
         android:background="@android:color/transparent"
         app:srcCompat="@drawable/passarpagina"
         android:onClick="startTelaAdicao3"
-        android:layout_marginRight="16dp"
+        android:layout_marginRight="0dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="62dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="16dp"
+        tools:ignore="ContentDescription,RtlHardcoded"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
         android:layout_marginTop="8dp"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="ContentDescription,RtlHardcoded" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imageButton23"
@@ -46,15 +49,18 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         app:srcCompat="@drawable/voltarpagina"
-        android:layout_marginLeft="26dp"
+        android:layout_marginLeft="16dp"
         android:onClick="startTelaAdicao"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintVertical_bias="0.882"
+        app:layout_constraintVertical_bias="0.983"
         tools:ignore="ContentDescription,RtlHardcoded"
-        android:contentDescription="" />
+        android:contentDescription=""
+        app:layout_constraintRight_toLeftOf="@+id/imageButton22"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

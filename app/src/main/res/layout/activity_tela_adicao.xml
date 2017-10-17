@@ -103,6 +103,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout3"
         app:srcCompat="@drawable/passarpagina"
-        android:contentDescription="" />
+        android:contentDescription=""
+        app:layout_constraintVertical_bias="0.894" />
 
 </android.support.constraint.ConstraintLayout>
