@@ -150,7 +150,7 @@ public class QuizLogicaSeisADez extends AppCompatActivity {
 
 
     private void misturarNumeros(){
-        for (int i = 0; i <= 24; i++) {
+        for (int i = 0; i <= 9; i++) {
             numeros.add(i);
         }
 
@@ -188,7 +188,7 @@ public class QuizLogicaSeisADez extends AppCompatActivity {
 
             startActivity(intent);
 
-        } else if (questoesPassadas == 24) {
+        } else if (questoesPassadas == 9) {
             Intent intent = new Intent(QuizLogicaSeisADez.this, TelaFinal.class);
             String localizacao = "";
             localizacao = "" + mostrarPontos.getText();
